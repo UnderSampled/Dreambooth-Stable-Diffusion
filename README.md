@@ -66,8 +66,8 @@ Same prompt for all of these images below:
 # RunPod Instructions
 - Sign up for RunPod. Feel free to use my [referral link here](https://runpod.io?ref=n8yfwyum), so that I don't have to pay for it (but you do).
 - Click **Deploy** on either `SECURE CLOUD` or `COMMUNITY CLOUD`
-- Click `Select` on a GPU with at least 35 GB of VRAM (e.g. A100, A40, A6000, etc)
-- Select a template > `Runpod / Stable Diffusion`
+- Click `Select` on a GPU with at least 24 GB of VRAM (e.g. 3090, A100, A40, A6000, etc.)
+- Select a template > `RunPod Pytorch` ( `Runpod / Stable Diffusion` automaticall runs the Stable Diffusion WebUI, but allocates at least 6GB of vram you can't use for training)
 - Click `Connect` and choose `Jupyter Lab`
 - Make a new notebook (it's just like Google Colab) and run the code below
 ```python
